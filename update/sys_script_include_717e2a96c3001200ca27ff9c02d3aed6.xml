@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_test18.E2ETESTRECORDA</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>E2ETESTRECORDA</name>
+        <script><![CDATA[var E2ETESTRECORDA = Class.create();
+E2ETESTRECORDA.prototype = {
+    initialize: function() {
+    },
+
+    type: 'E2ETESTRECORDA'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2015-12-03 02:09:03</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>717e2a96c3001200ca27ff9c02d3aed6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>E2ETESTRECORDA</sys_name>
+        <sys_package display_value="test18" source="sn_test18">89668616c3001200ca27ff9c02d3ae7b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="test18">89668616c3001200ca27ff9c02d3ae7b</sys_scope>
+        <sys_update_name>sys_script_include_717e2a96c3001200ca27ff9c02d3aed6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2015-12-03 02:09:09</sys_updated_on>
+    </sys_script_include>
+</record_update>
